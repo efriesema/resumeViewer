@@ -1,26 +1,22 @@
 {
   "main": {
     "name":"Ed Friesema",
-    "occupation":"application developer",
+    "occupation":"applications engineer",
     "description":"My mission is to use the tremendous power of modern computing to help you break through your obstacles and achieve your goals.",
     "image":"profilepic.jpg",
-    "bio":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+    "contactText":"If you have any questions about my projects, interests, or need my help with any applications you have in mind, please let me hear from you.",
+    "bio":"I'm new to developing software applications but I've spent ten years helping clients find the right combination of software and hardware to deliver the best quality videos and games to their clients around the world. I'm dedicated to using ReactJS and ASP.NET to deliver solutions to clients whatever their business or audience. When I have the time I love to travel, play poker, hike and sing bad karaoke.",
     "email": "developer@streamverse.net",
-    "phone": "818-35-2049",
+    "phone": "818-355-2049",
     "address":{
       "street":"3113 Highland Falls Dr",
-      "city":"LAs Vegas",
+      "city":"Las Vegas",
       "state":"NV",
       "zip": "89134"
     },
     "website": "http://www.streamverse.net",
-    "resumedownload":"http://something.com",
+    "resumedownload":"http://localhost:3000/resume/EdF_app_eng2.doc",
     "social":[
-      {
-        "name":"facebook",
-        "url":"https://www.facebook.com/ed.friesema",
-        "className":"fa fa-facebook"
-      },
       {
         "name":"twitter",
         "url":"http://twitter.com",
@@ -28,78 +24,85 @@
       },
       {
         "name":"linkedin",
-        "url":"http://linkedin.com",
+        "url":"http://www.linkedin.com/in/ed-friesema-97b05632/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"http://github.com",
+        "url":"http://github.com/efriesema",
         "className":"fa fa-github"
       },
       {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
+        "name":"pinterest",
+        "url":"http://pinterest.com",
+        "className":"fa fa-pinterest"
       }
     ]
   },
   "resume":{
     "education":[
       {
-        "school":"University of Life",
-        "degree":"Master in Graphic Design",
-        "graduated":"April 2007",
-        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium."
+        "school":"University of California - San Diego",
+        "degree":"Masters in Electrical and Computer Engineering -Optics Specialization ",
+        "graduated":"June 2003",
+        "description":"Developed and tested an opto-electronic ultra-fast switch using a piezo-electric transducer. Led discussion sections, held office hours, and graded labs and exams for undergraduate engineering courses."
       },
       {
-        "school":"School of Cool Designers",
-        "degree":"B.A. Degree in Graphic Design",
-        "graduated":"March 2003",
-        "description":"This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat"
+        "school":"Pennsylvania State University",
+        "degree":"B.S. Degree in Electrical Engieneering",
+        "graduated":"June 1997",
+        "description":"Tau Beta Pi Engineering Honors fraternity.\nSpent a year studying engineering at Leeds University, England."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX Designer ",
-        "years":"March 2010 - Present",
-        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium."
+        "company":"Sutherland Global Services",
+        "title":"Technical Support Representative",
+        "years":"April 2017 -  September 2017",
+        "description":"Provided Tier 1 technical support to customers of AT&T Digital Life, using VPN and remote access tools to troubleshoot wireless, networking, hardware, and phone app issues in a fast-paced call center."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"UX Designer",
-        "years":"March 2007 - February 2010",
-        "description":"This is Photoshops version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat"
+        "company":"Streamverse",
+        "title":"Lead Trainer and Application Engineer",
+        "years":"January 2013 - March 2017",
+        "description":"Trained and operated for clients ranging from houses of worship to network affiliates, teaching them how to engineer and operate live production technology like Newtek Tricaster, Wowza Streaming Engine, and Telestream to deliver high quality video streaming and gaming experiences."
+      },
+      {
+        "company":"Key Code Media",
+        "title":"Applications Engineer",
+        "years":"September 2010 - December 2013",
+        "description":"Trained and operated for clients ranging from houses of worship to network affiliates, teaching them how to engineer and operate live production technology like Newtek Tricaster, Wowza and , Crestron, Telestream to deliver high quality video streaming and gaming experiences."
       }
     ],
     "skills":[
       {
-        "name":"Photoshop",
-        "level":"60%"
+        "title":"C#",
+        "name":"Csharp",
+        "level":"30%"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "title":"Javascript/ES6",
+        "name":"Javascript",
+        "level":"65%"
       },
       {
+        "title":"Wordpress",
         "name":"Wordpress",
-        "level":"50%"
+        "level":"40%"
       },
       {
+        "title":"CSS",
         "name":"CSS",
-        "level":"90%"
+        "level":"80%"
       },
       {
+        "title":"HTML5",
         "name":"HTML5",
         "level":"80%"
       },
       {
-        "name":"jQuery",
+        "title":"ReactJS",
+        "name":"ReactJS",
         "level":"50%"
       }
     ]
@@ -107,88 +110,47 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Coffee Cup",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Illustrator",
-        "tags":"Branding, Web Design",
-        "image":"coffee.jpg",
-        "url":"http://port1.com",
+        "title":"Music Master",
+        "description":"A ReactJS application utilizing Spotify's Web API to create a preview playlist of the top ten tracks for any artist. This was based on the lesson in David Katz's Udemy course, ReactJS and Redux- Mastering Web Apps.",
+        "category":"Web Application",
+        "tags":"ReactJS,  Development, Multimedia, APIs",
+        "image":"black-headphones.jpg",
+        "url":"http://http://github.com/efriesema/musicMaster",
         "modal":"#modal-01"
       },
       {
-        "title":"Console",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Design",
-        "tags":"Branding, Web Development",
-        "image":"console.jpg",
-        "url":"http://port2.com",
+        "title":"Watson Speech Translator",
+        "description":"An application using Watson's engine for English text-to-speech and speech-to-text translation.  Further development includes incorporating the technology into an application to help children learn how to read.",
+        "category":"Machine Learning",
+        "tags":"IBM Watson, Machine Learning, AI, Speech Recognition",
+        "image":"human-brain-in-blue.jpg",
+        "url":"http://console.ng.bluemix.net",
         "modal":"#modal-02"
       },
       {
-        "title":"Judah",
+        "title":"Shoot The Hoop VR",
         "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Development",
-        "tags":"Branding, Web Programming",
-        "image":"judah.jpg",
-        "url":"http://port3.com",
+        "category":"Virtual Reality",
+        "tags":"Virtual Reality,  Unity, C#, Gaming",
+        "image":"virtual-reality.jpg",
+        "url":"http://www.github.com/efriesema",
         "modal":"#modal-03"
-      },
-      {
-        "title":"Into The Light",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Photography",
-        "tags":"Photography, Design",
-        "image":"into-the-light.jpg",
-        "url":"http://port4.com",
-        "modal":"#modal-04"
-      },
-      {
-        "title":"Farmer Boy",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Branding",
-        "tags":"Branding, Web Design",
-        "image":"farmerboy.jpg",
-        "url":"http://port5.com",
-        "modal":"#modal-05"
-      },
-      {
-        "title":"Girl",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Photography",
-        "tags":"Photography, Graphic Design",
-        "image":"girl.jpg",
-        "url":"http://port6.com",
-        "modal":"#modal-06"
-      },
-      {
-        "title":"Origami",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Illustration",
-        "tags":"Branding, Illustration",
-        "image":"origami.jpg",
-        "url":"http://port7.com",
-        "modal":"#modal-07"
-      },
-      {
-        "title":"Retrocam",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Development",
-        "tags":"Photography",
-        "image":"retrocam.jpg",
-        "url":"http://port8.com",
-        "modal":"#modal-08"
       }
     ]
   },
   "testimonials":{
     "testimonials":[
       {
-        "text":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "user":"John Doe"
+        "text":"Ed really helped us integrate and test some complicated systems for our show.  He was very knowledgeable and always available to help us with our questions during the entire process.",
+        "user":"Tom Baird, Chief Engineer, Dr. Phil Show"
       },
       {
-        "text":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "user":"Steve Smith"
+        "text":"Ed helped give our people the skills they needed to achieve some very important goals that we'd been wanting for a long time.  His expertise and willingness to work with our staff solved some problems that had been blocking us for months.",
+        "user":"Steve Harrington, VP Engineering & Operations KTTV and KCOP"
+      },
+            {
+        "text":"Ed gave a us a full day seminar on using Avid Media Composer in a reality TV post production workflow.  His knowledge and enthusiasm really shined through. It made the transition a lot smoother for our entire team, which was critical because of our tight schedule.",
+        "user":"William Pisnieski, VP of Post Production for Authentic Entertainment LLC"
       }
     ]
   }

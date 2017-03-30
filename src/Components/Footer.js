@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 
 
 class Footer extends Component {
-  render() {
+  render() { if(this.props.data){
+
+      var networks = this.props.data.social.map(function(network){
+        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      });
+    }
     return (
       <footer>
       <div className="row">
          <div className="twelve columns">
             <ul className="social-links">
-               <li><a href="https://www.facebook.com/ed.friesema" target="_blank"><i className="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/ed-friesema-97b05632/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-               <li><a href="https://github.com/efriesema" target="_blank"><i className="fa fa-github"></i></a></li>
+               {networks}
             </ul>
             <ul className="copyright">
                <li>&copy; Copyright 2014 CeeVee</li>

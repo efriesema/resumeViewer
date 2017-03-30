@@ -3,6 +3,15 @@ import React, { Component } from 'react';
 
 class Header extends Component {
   render() {
+    if(this.props.data){
+      var name = this.props.data.name;
+      var occupation = this.props.data.occupation;
+      var description = this.props.data.description;
+      var city = this.props.data.address.city;
+      var networks = this.props.data.social.map(function(network){
+        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      });
+    }
     return (
       <header id="home">
 
@@ -24,17 +33,11 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">What's your Dream?</h1>
-            <h3>My name is <span>Edward Friesema</span>. I'm a Las Vegas-based <span>application developer</span>.  My mission is to 
-            use the tremendous power of modern computing to help you break through your obstacles and achieve your goals. 
+            <h3>My name is <span>{name}</span>. I'm a {city}-based {occupation}. {description} 
             <a className="smoothscroll" href="#about"> Start scrolling</a> to learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul className="social">
-               <li><a href="https://www.facebook.com/ed.friesema" target="_blank"><i className="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-               <li><a href="https://www.linkedin.com/in/ed-friesema-97b05632/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
-               <li><a href="https://github.com/efriesema" target="_blank"><i className="fa fa-github"></i></a></li>
-               
+               {networks}       
             </ul>
          </div>
       </div>

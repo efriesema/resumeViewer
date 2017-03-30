@@ -11,9 +11,9 @@ class Testimonials extends Component {
                <h1><span>Client Testimonials</span></h1>
             </div>
             <div className="ten columns flex-container">
-               <div className="flexslider">
+               <div className="flexslider"> 
                   <ul className="slides">
-                     <li>
+                    <li>
                         <blockquote>
                            <p>Ed really helped us integrate and test some complicated systems for our show. 
                            He was very knowledgeable and always available to help us with our questions during the entire process.
@@ -35,11 +35,11 @@ class Testimonials extends Component {
                            His knowledge and enthusiasm really shined through. It made the transition a lot smoother for our entire 
                            team, which was critical because of our tight schedule.
                            </p>
-                           <cite>William, Pisnieski, VP of Post Production for Authentic Entertainment LLC</cite>
+                           <cite>William Pisnieski, VP of Post Production for Authentic Entertainment LLC</cite>
                         </blockquote>
-                     </li> 
+                     </li>
                   </ul>
-               </div> 
+               </div>
             </div> 
          </div> 
        </div> 
